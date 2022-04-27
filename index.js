@@ -11,7 +11,7 @@ app.use(cors());
 //DATABASE CONNECTION
 
 mongoose.connect(
-    "mongodb://localhost:27017/tutorialmern?readPreference=primary&appname=MongoDB%20Compass&ssl=false",
+    "mongodb+srv://itzrahulyadav:rahul123@mern.8pjc4.mongodb.net/tutorialmern?retryWrites=true&w=majority",
 {useNewUrlParser:true}
 ).then(()=>{
     console.log("connected to database");
